@@ -43,7 +43,7 @@ This is not just a game clone; it is a demonstration of clean coding practices:
 ### Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Minesweeper-Python.git](https://github.com/YOUR_USERNAME/Minesweeper-Python.git)
+    git clone https://github.com/vadim1825/Minesweeper.git
     cd Minesweeper-Python
     ```
 
