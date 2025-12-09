@@ -5,18 +5,17 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Overview
-This project is a clean, object-oriented implementation of the classic **Minesweeper** game using Python and the `pygame` library. 
+This project is an implementation of the classic **Minesweeper** game using Python and the `pygame` library. 
 
-The primary goal of this project was to practice **Object-Oriented Programming (OOP)** principles, implement recursive algorithms (Flood Fill), and write maintainable, type-hinted Python code compliant with modern standards.
+The primary goal of this project was to practice **Object-Oriented Programming (OOP)** principles, implement recursive algorithms, and write maintainable, type-hinted Python code compliant with modern standards.
 
 ![Gameplay Screenshot](./gameplay.png)
-*(Note: Please add a screenshot of your game here)*
 
 ## 🎮 Game Features
 * **Classic Rules:** Reveal cells, flag mines, and clear the board to win.
-* **Smart Recursion:** Automatically opens empty areas (zeros) using the Flood Fill algorithm.
+* **Smart Recursion:** Automatically opens empty areas using the recursive algorithm.
 * **Flagging System:** Right-click to flag/unflag potential mines.
-* **Win/Loss States:** Detects victory (all safe cells opened) or defeat (mine triggered).
+* **Win/Loss States:** Detects victory if all safe cells opened or defeat if mine triggered.
 * **Instant Restart:** Press `R` to reset the board immediately.
 
 ## 🧠 Technical Highlights
@@ -32,7 +31,7 @@ This is not just a game clone; it is a demonstration of clean coding practices:
     * **Generators:** Used for efficient neighbor calculation (`yield`).
 
 3.  **Algorithms:**
-    * **Flood Fill (Recursion):** Implemented to handle the "chain reaction" when opening empty cells.
+    * **Recursion:** Implemented to handle the "chain reaction" when opening empty cells.
     * **Neighbor Calculation:** Optimized logic to calculate adjacent mines efficiently using generator expressions.
 
 ## 🛠 Installation & Setup
