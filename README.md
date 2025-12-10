@@ -47,7 +47,7 @@ This is not just a game clone; it is a demonstration of clean coding practices:
     cd Minesweeper-Python
     ```
 
-2.  **Create a virtual environment (Optional but recommended):**
+2.  **Create a virtual environment:**
     ```bash
     python -m venv venv
     # Windows:
